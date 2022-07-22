@@ -1,0 +1,26 @@
+Difference between overloading and overriding with examples===>
+
+Overloading===>
+
+ it is performed within class.it is the example of compile time Polymorphism.it is used to increase the readability of the program.In java, method overloading can't be performed by changing return type of the method only. Return type can be same or different in method overloading.
+ 
+   
+   Example===>
+   class Example{  
+  static int add(int x,int y){return x+y;}  
+  static int add(int x,int y,int z){return x+y+z;}  
+    }  
+
+
+
+Overriding====>
+ 	it occurs in two classes that have IS-A (inheritance) relationship.In case of method overriding then parameter must be same.it is the example of run time Polymorphism. it is already provided by its super class.
+ 
+
+Example===>
+     class Animal{  
+void eat(){System.out.println("eating...");}  
+}  
+class Cat extends Animal{  
+void eat(){System.out.println("eating bread...");}  
+}  

@@ -1,0 +1,7 @@
+Write the difference between JRE, JDK and JVM?
+
+1.JDK is primarily used for code execution and has prime 
+functionality of development.
+2.JRE is majorly responsible for creating environment for code execution.
+3.JVM on other hand specifies all the implementations and responsible 
+to provide these implementations to JRE.

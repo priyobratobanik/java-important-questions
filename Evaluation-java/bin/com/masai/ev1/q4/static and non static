@@ -1,0 +1,16 @@
+Difference between static and non static variable
+=================================================
+in java ,static is a perticular keyword which allows a method to function without a class instance.
+as,static method is a part of the class ,we dont need to create an instance.it can be accessed using classname or member name.
+all the objects of a class can share a single copy of static vriables.it allocates less memory.it uses compile time binding .
+ex like-bankNme,branch name,bankadress 
+
+
+
+non static members belongs to object ,it doesnot required any special keyword.it can be accessed using objectName or member name
+each object has one local copy of the non static variables.
+it allocates more memory.it uses run time binding.
+
+ex like-accountNumber,name,phone
+
+
